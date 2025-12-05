@@ -1,0 +1,64 @@
+/* static/css/base.css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    background: linear-gradient(135deg, #160000 0%, #000000 50%, #260000 100%);
+    color: #40ff00;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(135deg, #160000 0%, #9a0202 50%, #260000 100%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    border-bottom: 10px solid #ff0000;
+    margin-bottom: 4rem;
+}
+header h1 a {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    background: linear-gradient(135deg, #160000 0%, #000c6a 50%, #260000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent;
+    text-decoration: none; 
+}
+
+
+.nav-left {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.post-entry{
+    margin-bottom: 3rem;
+}
+
+.post-entry h2{
+    margin: 1.5rem 0;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+
+.post-entry p{
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.post-entry h2 a:hover {
+    color: red;
+}
